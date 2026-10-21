@@ -1,0 +1,11 @@
+services:
+  app:
+    image: cs554-midterm:1.1
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: "8080"
+      SERVICE_NAME: "cs554-midterm"
+      MESSAGE: "Hello from Deepkumar's Linux VM"
+
